@@ -7,6 +7,7 @@ body {
 	line-height: 1.2em;
 	margin: 0;
 	padding: 0;
+
 }
 
 /* heading styles */
@@ -47,6 +48,10 @@ p {
 	margin: 0;
 }
 
+header {
+	background-color: black;
+}
+
 /* styles that target main */
 
 main {
@@ -70,8 +75,21 @@ main {
 }
 
 .redBorder {
-	border: 2px solid red;
+	border: 1px dashed red;
 }
+
+.greenBorder {
+	border: 1px dashed green;
+}
+
+.blueBorder {
+	border: 1px dotted blue;
+}
+
+.blackBorder {
+	border: 1px solid black;
+}
+
 
 .width-300 {
 	width: 300px;
@@ -97,3 +115,39 @@ main {
 	text-decoration: underline;
 }
 
+.percent-25 {
+	width: 25%;
+}
+
+.percent-50 {
+	width: 50%;
+}
+
+.container {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* main navigation styles */
+
+.mainNav ul {
+	text-align: right;
+	padding: 0.8%;
+}
+
+.mainNav li {
+	display: inline;
+	margin: 0;
+	padding: 0.8%;
+}
+
+.mainNav a {
+	text-decoration: none;
+
+	color: white;
+}
+
+.active {
+		background-color: darkgray;
+}
