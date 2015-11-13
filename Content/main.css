@@ -48,16 +48,20 @@ p {
 	margin: 0;
 }
 
-header {
-	background-color: black;
-}
+
 
 /* styles that target main */
 
 main {
 	background-color: lightgrey;
-	margin: 20px;
-	padding: 20px;
+	padding: 1.6%;
+	overflow: auto;
+}
+
+.main {
+	width: 50%;
+	min-height: 60vh;
+
 }
 
 .normal {
@@ -131,23 +135,49 @@ main {
 
 /* main navigation styles */
 
+header {
+	background-color: black;
+}
+
 .mainNav ul {
 	text-align: right;
 	padding: 0.8%;
+	overflow: auto;
 }
 
 .mainNav li {
 	display: inline;
-	margin: 0;
+	/*overflow: auto;*/
 	padding: 0.8%;
 }
 
 .mainNav a {
 	text-decoration: none;
-
 	color: white;
 }
 
+.mainNav li:hover {
+	background-color: darkgray;
+}
+
+
 .active {
-		background-color: darkgray;
+		background-color: grey;
+}
+
+/* special effects */
+.redArea {
+	background-color: red;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.aside {
+	width: 30%;
 }
